@@ -1,17 +1,15 @@
 module github.com/philips-labs/slsa-provenance-action
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.7
 
 require (
 	github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.11.0
 	github.com/chrismellard/docker-credential-acr-env v0.0.0-20220119192733-fe33c00cee21
-	github.com/google/go-containerregistry v0.20.7
+	github.com/google/go-containerregistry v0.21.3
 	github.com/google/go-github/v41 v41.0.0
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/oauth2 v0.34.0
+	golang.org/x/oauth2 v0.36.0
 )
 
 require (
@@ -25,14 +23,14 @@ require (
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.0 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
-	github.com/containerd/stargz-snapshotter/estargz v0.18.1 // indirect
+	github.com/containerd/stargz-snapshotter/estargz v0.18.2 // indirect
 	github.com/dimchansky/utfbom v1.1.0 // indirect
 	github.com/docker/docker-credential-helpers v0.9.4 // indirect
 	github.com/form3tech-oss/jwt-go v3.2.2+incompatible // indirect
-	github.com/klauspost/compress v1.18.1 // indirect
+	github.com/klauspost/compress v1.18.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/vbatts/tar-split v0.12.2 // indirect
-	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
 )
 
 require (
@@ -52,7 +50,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.39.1 // indirect
 	github.com/aws/smithy-go v1.23.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/docker/cli v29.0.3+incompatible // indirect
+	github.com/docker/cli v29.3.0+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -60,9 +58,10 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
-	github.com/spf13/pflag v1.0.9 // indirect
+	github.com/sirupsen/logrus v1.9.4 // indirect
+	github.com/spf13/pflag v1.0.10 // indirect
 	golang.org/x/crypto v0.45.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gotest.tools/v3 v3.5.2 // indirect
 )

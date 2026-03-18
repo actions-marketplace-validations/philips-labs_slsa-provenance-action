@@ -1,8 +1,6 @@
 module github.com/philips-labs/slsa-provenance-action
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.11.0
@@ -11,7 +9,7 @@ require (
 	github.com/google/go-github/v41 v41.0.0
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/oauth2 v0.34.0
+	golang.org/x/oauth2 v0.36.0
 )
 
 require (
